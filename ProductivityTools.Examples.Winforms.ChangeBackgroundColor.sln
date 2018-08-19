@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Examples.Winforms.ChangeBackgroundColor", "WindowsFormsApp1\ProductivityTools.Examples.Winforms.ChangeBackgroundColor.csproj", "{B077298E-69A9-4703-BD67-FD0EE41067FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Examples.Winforms.ChangeBackgroundColor", "ProductivityTools.Examples.Winforms.ChangeBackgroundColor\ProductivityTools.Examples.Winforms.ChangeBackgroundColor.csproj", "{B077298E-69A9-4703-BD67-FD0EE41067FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

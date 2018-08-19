@@ -16,12 +16,15 @@ namespace ProductivityTools.Examples.Winforms.ChangeBackgroundColor
     {
         Thread thread;
         Boolean b;
-        
+        Random Random;
+
+
         public Form1()
         {
             InitializeComponent();
             thread = new Thread(ChangeColorBackground);
             thread.Start();
+            Random = new Random();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,10 +43,10 @@ namespace ProductivityTools.Examples.Winforms.ChangeBackgroundColor
             {
                 if (b == true)
                 {
-                    Random rnd = new Random();
-                    int r = rnd.Next(0, 254);
-                    int n = rnd.Next(0, 254);
-                    int d = rnd.Next(0, 254);
+
+                    int r = Random.Next(0, 254);
+                    int n = Random.Next(0, 254);
+                    int d = Random.Next(0, 254);
                     Color c = Color.FromArgb(r, n, d);
                     ChangeColorThreadSafe(c);
                 }
