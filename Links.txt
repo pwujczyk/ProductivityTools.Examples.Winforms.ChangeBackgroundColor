@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/51880963/while-loop-doesnt-stop-after-boolean-is-changed/51882189#51882189
